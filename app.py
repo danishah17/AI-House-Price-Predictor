@@ -440,7 +440,7 @@ class ProfessionalHousePricePredictor:
     def load_data(_self):
         """Load and cache the dataset"""
         try:
-            df = pd.read_csv(r'C:\Users\my pc\Downloads\House Price Analysis and Prediction\zameen-updated.csv')
+            df = pd.read_csv(r'C:\Users\my pc\Downloads\AI-House-Price-Predictor\zameen-updated.csv')
             # Basic cleaning
             numeric_cols = ['price', 'Area Size', 'bedrooms', 'baths', 'latitude', 'longitude']
             df[numeric_cols] = df[numeric_cols].fillna(df[numeric_cols].median())
