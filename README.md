@@ -55,23 +55,10 @@ Analyze Market:
 
 Compare against market averages
 
-View price position relative to market
+View price position relative to the market
 
 Calculate investment ROI (for rentals)
 
-## Project Structure
-text
-PakProperty-AI-Predictor/
-├── app.py                 # Main application code
-├── requirements.txt       # Python dependencies
-├── models/                # Trained ML models
-│   ├── rent_model.pkl
-│   ├── sale_model.pkl
-│   ├── rent_scaler.pkl
-│   └── sale_scaler.pkl
-├── data/                  # Property datasets
-│   └── zameen-updated.csv
-└── README.md              # Project documentation
 
 
 ## Technologies Used:
